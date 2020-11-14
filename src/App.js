@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Component } from 'react';
+import Dashboard from './components/layouts/Dashboard';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Header from './components/sections/Header'
+import FontAwesome from '@fortawesome/fontawesome-free';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( <
+        div className = "App bg-dark" >
+        <Container fluid className="bg-dark">
+        <Header/>
+        <Dashboard/>
+        </Container>
+        < /
+        div >
+    );
 }
 
 export default App;
