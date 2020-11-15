@@ -75,9 +75,9 @@ class HeartRate extends Component {
             div >
 
             <
-            Card.Title className = "lead" >
+            p className = "text-bold text-uppercase" >
             Heart Rate <
-            /Card.Title>    < /
+            /p>    < /
             Card.Body > < /
             Card > < /Col >
         );

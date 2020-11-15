@@ -108,10 +108,8 @@ class BreathingRate extends Component {
             type = "radialBar"
             height = { 200 }
             /> < /
-            div > <
-            Card.Title className = "lead" >
-            Breathing Rate <
-            /Card.Title>   < /
+            div > < p className = "text-bold text-uppercase" >
+            Breathing Rate < /p> < /
             Card.Body > < /
             Card > < /
             Col >

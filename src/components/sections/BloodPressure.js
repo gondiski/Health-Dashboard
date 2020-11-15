@@ -108,7 +108,7 @@ class BloodPressure extends Component {
             /> < /
             div >
             <
-            Card.Title className = "lead" > Blood Pressure < /Card.Title>  < /
+            p className = " text-uppercase" > Blood Pressure < /p>  < /
             Card.Body > <
             /Card> < /
             Col >

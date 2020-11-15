@@ -11,14 +11,10 @@ const CalendarView = () => {
         to: null
     });
     return ( <
-        Col className = "px-auto py-1 shadow-lg" > <
         Calendar value = { selectedDay }
         onChange = { setSelectedDay }
         shouldHighlightWeekends /
         >
-        <
-        /
-        Col >
     );
 
 }

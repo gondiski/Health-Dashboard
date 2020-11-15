@@ -46,10 +46,10 @@ class OxygenLevel extends Component {
             height = { 200 }
             /> < /
             div > <
-            Card.Title className = "lead" >
+            p className = "text-uppercase" >
             <
             p > Oxygen Level < /p> < /
-            Card.Title > < /
+            p > < /
             Card.Body > < /
             Card > < /
             Col >
