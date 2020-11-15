@@ -12,9 +12,9 @@ class Dashboard extends Component {
     render() {
         return ( 
             <div className="my-5">
-            <Container>
+            <Container fluid>
             <Row>
-            <Col xl="5" md ="8">
+            <Col xl="5" md ="4">
             <Row>
             <BloodPressure/>
             <HeartRate/>
@@ -22,10 +22,10 @@ class Dashboard extends Component {
             <BreathingRate/>
             </Row>
             </Col>
-            <Col xl="4" md ="4">
+            <Col xl="3" md ="4">
             <PatientDetails/>
             </Col>
-            <Col xl="3" md = "6">
+            <Col xl="2" md = "4">
             <CalendarView/>
             </Col>
             </Row>
