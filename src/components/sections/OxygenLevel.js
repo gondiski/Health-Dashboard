@@ -1,23 +1,51 @@
 import React, { Component } from 'react';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import GaugeChart from 'react-advanced-gauge-chart';
+import ReactApexChart from "react-apexcharts";
 
 class OxygenLevel extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+
+            series: [70],
+            options: {
+                chart: {
+                    height: 350,
+                    type: 'radialBar',
+                },
+                plotOptions: {
+                    radialBar: {
+                        hollow: {
+                            size: '70%',
+                            color: 'white'
+                        }
+                    },
+                },
+                labels: ['Oxygen'],
+            },
+
+
+        };
+    }
+
     render() {
         return ( <
-            Col > <
+            Col md = "6" > <
             Card className = "bg-dark text-white shadow-lg" >
             <
-            GaugeChart id = "gauge-chart2"
-            nrOfLevels = { 20 }
-            needleColor = "#fafafa"
-            percent = { 0.25 }
-            previousValue = { 0.36 }
-            /> <
             Card.Body >
+
             <
+            div id = "chart" >
+            <
+            ReactApexChart options = { this.state.options }
+            series = { this.state.series }
+            type = "radialBar"
+            height = { 200 }
+            /> < /
+            div > <
             Card.Title className = "lead" >
             Oxygen Level <
             /Card.Title> < /
