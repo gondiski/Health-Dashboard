@@ -13,7 +13,7 @@ function App() {
 
         <div className = "App" >
         <React.Fragment>
-        <Container fluid style={{ height: '100%' }} className="bg-dark">
+        <Container className="bg-dark">
         <Header/>
         <Dashboard/>
         </Container>
