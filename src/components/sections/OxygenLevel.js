@@ -47,8 +47,9 @@ class OxygenLevel extends Component {
             /> < /
             div > <
             Card.Title className = "lead" >
-            Oxygen Level <
-            /Card.Title> < /
+            <
+            p > Oxygen Level < /p> < /
+            Card.Title > < /
             Card.Body > < /
             Card > < /
             Col >

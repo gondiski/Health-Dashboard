@@ -5,7 +5,7 @@ The project is a health/fitness dashboard that aims to show the summary of a use
 - Breathing rate
 - Heart rate
 # Dependencies
-** React
-** Apex Charts
-** React router
-** React Bootstrap
+- React
+- Apex Charts
+- React router
+- React Bootstrap

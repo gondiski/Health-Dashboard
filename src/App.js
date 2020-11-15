@@ -13,6 +13,10 @@ function App() {
 
         <div className = "App" >
         <React.Fragment>
+        <Container fluid style={{ height: '100%' }} className="bg-dark">
+        <Header/>
+        <Dashboard/>
+        </Container>
             <Router>
                 <Switch>
                     <Route exact path="/" component={Dashboard} />
@@ -22,10 +26,7 @@ function App() {
                 </Switch>
             </Router>
         </React.Fragment>
-        <Container fluid style={{ height: '100%' }} className="bg-dark">
-        <Header/>
-        <Dashboard/>
-        </Container>
+        
         </div >
     );
 }

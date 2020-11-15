@@ -4,6 +4,7 @@ import HeartRate from '../sections/HeartRate';
 import OxygenLevel from '../sections/OxygenLevel';
 import BreathingRate from '../sections/BreathingRate';
 import PatientDetails from '../sections/PatientDetails';
+import CalendarView from '../sections/CalendarView';
 import Row from 'react-bootstrap/row';
 import Col from 'react-bootstrap/Col';
 import { Container } from 'react-bootstrap';
@@ -13,7 +14,7 @@ class Dashboard extends Component {
             <div className="my-5">
             <Container>
             <Row>
-            <Col xl md ="8">
+            <Col xl="5" md ="8">
             <Row>
             <BloodPressure/>
             <HeartRate/>
@@ -21,8 +22,11 @@ class Dashboard extends Component {
             <BreathingRate/>
             </Row>
             </Col>
-            <Col xl md ="4">
+            <Col xl="4" md ="4">
             <PatientDetails/>
+            </Col>
+            <Col xl="3" md = "6">
+            <CalendarView/>
             </Col>
             </Row>
             </Container>
