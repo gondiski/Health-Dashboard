@@ -11,7 +11,7 @@ class Header extends Component {
             bg = "dark"
             variant = "dark" >
             <
-            Navbar.Brand href = "#home" > My Dashboard < /Navbar.Brand> <
+            Navbar.Brand href = "/" > My Dashboard < /Navbar.Brand> <
             Nav className = "mr-auto" >
             <
             Nav.Link href = "/overview" > Overview < /Nav.Link> <
