@@ -43,7 +43,7 @@ class PatientDetails extends Component {
             Card.Text > <
             /Card></CardGroup > < /
             Card.Text > <
-            Card.Link href = "#" > View History < /Card.Link> < /
+            Card.Link href = "/overview" > View History < /Card.Link> < /
             Card.Body > <
             /Card> < /
             Col >
