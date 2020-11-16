@@ -12,12 +12,10 @@ function App() {
     return ( 
 
         <div className = "App" >
-        <React.Fragment>
+        
         <Container className="bg-dark">
         <Header/>
-        <Dashboard/>
-        </Container>
-            <Router>
+        <Router>
                 <Switch>
                     <Route exact path="/" component={Dashboard} />
                     <Route exact path="/overview" component={Overview} />
@@ -25,7 +23,8 @@ function App() {
                     <Route exact path="/settings" component={Settings} />
                 </Switch>
             </Router>
-        </React.Fragment>
+        </Container>
+            
         
         </div >
     );
