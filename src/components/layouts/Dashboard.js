@@ -5,7 +5,7 @@ import OxygenLevel from '../sections/OxygenLevel';
 import BreathingRate from '../sections/BreathingRate';
 import PatientDetails from '../sections/PatientDetails';
 import CalendarView from '../sections/CalendarView';
-import Row from 'react-bootstrap/row';
+import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Container } from 'react-bootstrap';
 class Dashboard extends Component {

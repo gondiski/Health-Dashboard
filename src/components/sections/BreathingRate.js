@@ -57,7 +57,7 @@ class BreathingRate extends Component {
                                 offsetY: -10,
                                 show: true,
                                 color: '#888',
-                                fontSize: '17px'
+                                fontSize: '12px'
                             },
                             value: {
                                 formatter: function(val) {
@@ -80,13 +80,13 @@ class BreathingRate extends Component {
                         inverseColors: true,
                         opacityFrom: 1,
                         opacityTo: 1,
-                        stops: [0, 100]
+                        stops: [0, 120]
                     }
                 },
                 stroke: {
                     lineCap: 'round'
                 },
-                labels: ['Percent'],
+                labels: ['Breaths/Minute'],
             },
 
 

@@ -80,13 +80,13 @@ class BloodPressure extends Component {
                         inverseColors: true,
                         opacityFrom: 1,
                         opacityTo: 1,
-                        stops: [0, 100]
+                        stops: [0, 120]
                     }
                 },
                 stroke: {
                     lineCap: 'round'
                 },
-                labels: ['Percent'],
+                labels: ['mmHg'],
             },
 
 
