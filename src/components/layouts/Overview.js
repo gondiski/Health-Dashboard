@@ -12,10 +12,12 @@ class Overview extends Component {
 
             series: [{
                 name: 'Blood Pressure',
-                data: [78, 80, 82, 88, 95, 109, 100]
+                data: [78, 80, 82, 88, 95, 109, 100],
+                colors: ['#D73C2C', '#19B5FE']
             }, {
                 name: 'Heart Rate',
-                data: [71, 70, 72, 67, 73, 78, 74]
+                data: [71, 70, 72, 67, 73, 78, 74],
+                colors: ['#D73C2C', '#19B5FE']
             }],
             options: {
                 chart: {
@@ -25,11 +27,19 @@ class Overview extends Component {
                         show: false
                     }
                 },
+                fill: {
+                    colors: ['#D73C2C', '#19B5FE']
+                },
                 dataLabels: {
-                    enabled: false
+                    enabled: false,
+                    colors: ['#D73C2C', '#19B5FE']
+                },
+                markers: {
+                    colors: ['#D73C2C', '#19B5FE']
                 },
                 stroke: {
-                    curve: 'smooth'
+                    curve: 'smooth',
+                    colors: ['#D73C2C', '#19B5FE']
                 },
                 xaxis: {
                     type: 'datetime',
