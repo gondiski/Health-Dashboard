@@ -60,7 +60,7 @@ class Overview extends Component {
             Row >
             <
             Col md = "12"
-            className = "text-white" > <
+            className = "text-white my-3" > <
             h5 className = "lead" > Here is a view since you began tracking your health < /h5></Col >
             <
             Col md = "8"
