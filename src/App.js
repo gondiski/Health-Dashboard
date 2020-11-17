@@ -7,26 +7,43 @@ import Header from './components/sections/Header';
 import Overview from './components/layouts/Overview';
 import Reports from './components/layouts/Reports';
 import Settings from './components/layouts/Settings';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-function App() {
-    return ( 
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-        <div className = "App" >
-        
-        <Container className="bg-dark">
-        <Header/>
-        <Router>
-                <Switch>
-                    <Route exact path="/" component={Dashboard} />
-                    <Route exact path="/overview" component={Overview} />
-                    <Route exact path="/reports" component={Reports} />
-                    <Route exact path="/settings" component={Settings} />
-                </Switch>
-            </Router>
-        </Container>
-            
-        
-        </div >
+function App() {
+    return (
+
+        <
+        div className = "App" >
+
+        <
+        Container className = "bg-dark" >
+        <
+        Header / >
+
+        <
+        Router >
+        <
+        Switch >
+        <
+        Route exact path = "/"
+        component = { Dashboard }
+        /> <
+        Route exact path = "/overview"
+        component = { Overview }
+        /> <
+        Route exact path = "/reports"
+        component = { Reports }
+        /> <
+        Route exact path = "/settings"
+        component = { Settings }
+        /> < /
+        Switch > <
+        /Router> < /
+        Container >
+
+
+        <
+        /div >
     );
 }
 

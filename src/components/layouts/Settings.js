@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Image from 'react-bootstrap/Image';
-
+// import profile from './images/profile.jpg';
 class Settings extends Component {
     render() {
         return ( <
@@ -42,11 +42,11 @@ class Settings extends Component {
             Col xs = { 6 }
             md = { 4 } >
             <
-            Image src = "holder.js/171x180"
+            Image src = "../images/profile.jpg"
             rounded / >
             <
-            /Col> <
-            /Row> <
+            /Col> < /
+            Row > <
             /Col>< /
             Row > < /Col > < /
             Row >

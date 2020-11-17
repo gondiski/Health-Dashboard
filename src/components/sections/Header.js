@@ -2,11 +2,12 @@ import React, { Component } from "react"
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+// import { NavLink, Link } from 'react-router-dom';
 
 class Header extends Component {
     render() {
         return ( <
-            Container > <
+            Container fluid > <
             Navbar expand = "lg"
             bg = "dark"
             variant = "dark" >

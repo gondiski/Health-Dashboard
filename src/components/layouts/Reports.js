@@ -29,6 +29,10 @@ class Settings extends Component {
         return ( <
             Row >
             <
+            Col md = "12" >
+            <
+            h3 className = "lead text-white" > Reports < /h3></Col >
+            <
             Col md = "8"
             className = "bg-white rounded" > < div className = "mixed-chart" >
             <
