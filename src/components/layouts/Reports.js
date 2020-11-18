@@ -28,13 +28,13 @@ class Settings extends Component {
     }
     render() {
         return ( <
-            Row >
+            Row className = "mx-4" >
             <
-            Col md = "12" >
+            Col md = "12 px-0" >
             <
-            h3 className = "lead text-white mb-0" > Reports < /h3> < p className = "text-white mt-0" > Performance timeline over the past year. < /p > < /Col > <
+            h3 className = "lead text-white mb-0 mx-0" > Reports < /h3> < p className = "text-white mt-0" > Performance timeline over the past year. < /p > < /Col > <
             Col md = "7"
-            className = "bg-white rounded" > < div className = "mixed-chart" >
+            className = "bg-white rounded-left" > < div className = "mixed-chart" >
             <
             Chart options = { this.state.options }
             series = { this.state.series }
@@ -45,7 +45,7 @@ class Settings extends Component {
             /div> < /Col >
             <
             Col md = "5"
-            className = "rounded bg-white" >
+            className = "rounded-right bg-white" >
             <
             AverageHealth / >
             <
