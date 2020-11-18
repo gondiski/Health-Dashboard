@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 class Header extends Component {
     render() {
         return ( <
-            Container fluid > <
+            Container > <
             Navbar expand = "lg"
             bg = "dark"
             variant = "dark" >
