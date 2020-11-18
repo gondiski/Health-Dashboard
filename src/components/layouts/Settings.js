@@ -30,7 +30,9 @@ class Settings extends Component {
             ListGroup.Item as = "li"
             className = "bg-dark text-white" > Security < /ListGroup.Item> < /
             ListGroup > <
-            /Col>  <
+            /Col>
+            
+            <
             Col md = "8" >
             <
             Row >

@@ -13,19 +13,15 @@ class Overview extends Component {
             series: [{
                 name: 'Blood Pressure',
                 data: [78, 80, 82, 88, 95, 109, 100],
-                colors: ['#D73C2C', '#19B5FE']
             }, {
                 name: 'Heart Rate',
-                data: [71, 70, 72, 67, 73, 78, 74],
-                colors: ['#D73C2C', '#19B5FE']
+                data: [71, 70, 72, 67, 73, 78, 74]
             }, {
                 name: 'Breathing Rate',
                 data: [21, 22, 24, 25, 20, 23, 23],
-                colors: ['#E40679']
             }, {
                 name: 'Oxygen Levels',
                 data: [78, 67, 80, 83, 87, 88, 85],
-                colors: ['#E40679']
             }],
             options: {
                 chart: {
@@ -35,9 +31,6 @@ class Overview extends Component {
                         show: false
                     }
                 },
-                fill: {
-                    colors: ['#D73C2C', '#19B5FE', '#E40']
-                },
                 dataLabels: {
                     enabled: false,
                     colors: ['#D73C2C', '#19B5FE']
@@ -46,8 +39,7 @@ class Overview extends Component {
                     colors: ['#D73C2C', '#19B5FE']
                 },
                 stroke: {
-                    curve: 'smooth',
-                    colors: ['#D73C2C', '#19B5FE']
+                    curve: 'smooth'
                 },
                 xaxis: {
                     type: 'datetime',
@@ -65,11 +57,11 @@ class Overview extends Component {
     }
     render() {
         return ( <
-            Row >
+            Row className = "mx-4" >
             <
-            Col md = "12"
+            Col md = "12 px-0"
             className = "text-white my-3" > <
-            h5 className = "lead" > Here is a view since you began tracking your health < /h5></Col >
+            h5 className = "lead" > Here is an overview since the day began < /h5></Col >
             <
             Col md = "8"
             className = "bg-white rounded" >
