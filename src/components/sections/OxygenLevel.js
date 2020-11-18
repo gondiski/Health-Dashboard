@@ -9,21 +9,50 @@ class OxygenLevel extends Component {
 
         this.state = {
 
-            series: [70],
+            series: [80],
             options: {
                 chart: {
-                    height: 350,
+                    height: 200,
                     type: 'radialBar',
+                    offsetY: -10
                 },
                 plotOptions: {
                     radialBar: {
-                        hollow: {
-                            size: '70%',
-                            color: 'white'
+                        startAngle: -90,
+                        endAngle: 90,
+                        dataLabels: {
+                            name: {
+                                fontSize: '16px',
+                                color: undefined,
+                                offsetY: 80
+                            },
+                            value: {
+                                offsetY: 46,
+                                fontSize: '16px',
+                                color: '#ffffff',
+                                formatter: function(val) {
+                                    return val + "%";
+                                }
+                            }
                         }
+                    }
+                },
+                fill: {
+                    type: 'gradient',
+                    gradient: {
+                        shade: 'light',
+                        shadeIntensity: 0.15,
+                        inverseColors: false,
+                        opacityFrom: 1,
+                        opacityTo: 1,
+                        stops: [0, 50, 65, 91]
                     },
                 },
-                labels: ['SPO2'],
+                stroke: {
+                    dashArray: 1,
+                    colors: ['red', 'yellow', 'green']
+                },
+                labels: ['SpO2'],
             },
 
 
@@ -43,7 +72,7 @@ class OxygenLevel extends Component {
             ReactApexChart options = { this.state.options }
             series = { this.state.series }
             type = "radialBar"
-            height = { 200 }
+            height = { 180 }
             /> < /
             div > <
             p className = "text-uppercase" >
