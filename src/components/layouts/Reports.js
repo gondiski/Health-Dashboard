@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Chart from 'react-apexcharts';
+import BloodPressure from '../averages/BloodPressure';
+import HeartRate from '../averages/HeartRate';
+import OxygenLevel from '../averages/OxygenLevel';
 
 class Settings extends Component {
     constructor(props) {
@@ -31,9 +34,8 @@ class Settings extends Component {
             <
             Col md = "12" >
             <
-            h3 className = "lead text-white" > Reports < /h3></Col >
-            <
-            Col md = "8"
+            h3 className = "lead text-white mb-0" > Reports < /h3> < p className = "text-white mt-0" > Performance timeline over the past year. < /p > < /Col > <
+            Col md = "7"
             className = "bg-white rounded" > < div className = "mixed-chart" >
             <
             Chart options = { this.state.options }
@@ -44,8 +46,15 @@ class Settings extends Component {
             <
             /div> < /Col >
             <
-            Col md = "4"
-            className = "rounded" > < /Col>< /
+            Col md = "5"
+            className = "rounded" >
+            <
+            Row > <
+            BloodPressure / >
+            <
+            HeartRate / >
+            <
+            OxygenLevel / > < /Row>< /Col > < /
             Row >
         );
     }
