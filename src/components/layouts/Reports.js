@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Chart from 'react-apexcharts';
-import BloodPressure from '../averages/BloodPressure';
-import HeartRate from '../averages/HeartRate';
-import OxygenLevel from '../averages/OxygenLevel';
+import AverageHealth from '../averages/AverageHealth';
 
 class Settings extends Component {
     constructor(props) {
@@ -47,14 +45,11 @@ class Settings extends Component {
             /div> < /Col >
             <
             Col md = "5"
-            className = "rounded" >
+            className = "rounded bg-white" >
             <
-            Row > <
-            BloodPressure / >
+            AverageHealth / >
             <
-            HeartRate / >
-            <
-            OxygenLevel / > < /Row>< /Col > < /
+            /Col > < /
             Row >
         );
     }
