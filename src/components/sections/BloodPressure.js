@@ -9,7 +9,7 @@ class BloodPressure extends Component {
 
         this.state = {
 
-            series: [75],
+            series: [120, 80],
             options: {
                 chart: {
                     height: 300,
@@ -64,29 +64,24 @@ class BloodPressure extends Component {
                                     return parseInt(val);
                                 },
                                 color: '#111',
-                                fontSize: '36px',
+                                fontSize: '24px',
                                 show: true,
+                            },
+                            total: {
+                                show: true,
+                                label: 'mmHG',
+                                formatter: function(w) {
+                                    // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
+                                    return '120/80'
+                                }
                             }
                         }
-                    }
-                },
-                fill: {
-                    type: 'gradient',
-                    gradient: {
-                        shade: 'dark',
-                        type: 'horizontal',
-                        shadeIntensity: 0.5,
-                        gradientToColors: ["#E74C3C"],
-                        inverseColors: true,
-                        opacityFrom: 1,
-                        opacityTo: 1,
-                        stops: [0, 120]
                     }
                 },
                 stroke: {
                     lineCap: 'round'
                 },
-                labels: ['mmHg'],
+                labels: ['systolic', 'diastolic'],
             },
 
 
