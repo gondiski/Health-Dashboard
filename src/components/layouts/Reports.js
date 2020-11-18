@@ -20,9 +20,15 @@ class Settings extends Component {
                     categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"]
                 }
             },
+            colors: ['#33b2df', '#546E7A', '#d4526e', '#13d8aa', '#A5978B', '#2b908f', '#f9a3a4', '#90ee7e',
+                '#f48024', '#69d2e7'
+            ],
             series: [{
                 name: "Blood pressure levels",
                 data: [70, 60, 68, 75, 79, 78, 77, 79, 88, 89, 91, 95]
+            }, {
+                name: "Heart Rate Levels",
+                data: [78, 74, 77, 73, 70, 72, 72, 71, 67, 73, 72, 70]
             }]
         };
     }

@@ -18,7 +18,8 @@ class Header extends Component {
             Nav.Link href = "/overview" > Overview < /Nav.Link> <
             Nav.Link href = "/reports" > Reports < /Nav.Link> <
             Nav.Link href = "/settings" > Settings < /Nav.Link> < /
-            Nav > <
+            Nav > 
+            <
             /Navbar>    < /
             Container >
         );

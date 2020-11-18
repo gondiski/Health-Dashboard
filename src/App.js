@@ -9,6 +9,7 @@ import Reports from './components/layouts/Reports';
 import Settings from './components/layouts/Settings';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+
 function App() {
     return (
 

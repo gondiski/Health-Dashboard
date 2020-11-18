@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row, ListGroup, Image, Form } from 'react-bootstrap';
+import { Col, Row, ListGroup, Image, Form, Button } from 'react-bootstrap';
 class Settings extends Component {
     render() {
         return ( <
@@ -77,12 +77,13 @@ class Settings extends Component {
             Form.Group > <
             Form.Group controlId = "exampleForm.ControlTextarea1" >
             <
-            Form.Label > Example textarea < /Form.Label> <
+            Form.Label className = "text-white" > Bio < /Form.Label> <
             Form.Control as = "textarea"
             rows = { 3 }
-            /> < /
+            />  < /
             Form.Group > <
-            /Form> < /
+            Button className = "btn-light mt-1" > Save changes < /Button> < /
+            Form > < /
             Col > < /
             Row > < /Col > < /
             Row >
