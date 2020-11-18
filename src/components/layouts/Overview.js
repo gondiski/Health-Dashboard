@@ -18,6 +18,14 @@ class Overview extends Component {
                 name: 'Heart Rate',
                 data: [71, 70, 72, 67, 73, 78, 74],
                 colors: ['#D73C2C', '#19B5FE']
+            }, {
+                name: 'Breathing Rate',
+                data: [21, 22, 24, 25, 20, 23, 23],
+                colors: ['#E40679']
+            }, {
+                name: 'Oxygen Levels',
+                data: [78, 67, 80, 83, 87, 88, 85],
+                colors: ['#E40679']
             }],
             options: {
                 chart: {
@@ -28,7 +36,7 @@ class Overview extends Component {
                     }
                 },
                 fill: {
-                    colors: ['#D73C2C', '#19B5FE']
+                    colors: ['#D73C2C', '#19B5FE', '#E40']
                 },
                 dataLabels: {
                     enabled: false,

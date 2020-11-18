@@ -23,7 +23,7 @@ class OxygenLevel extends Component {
                         }
                     },
                 },
-                labels: ['Oxygen'],
+                labels: ['SPO2'],
             },
 
 

@@ -27,7 +27,7 @@ function App() {
         <
         Route exact path = "/"
         component = { Dashboard }
-        /> <
+        />  <
         Route exact path = "/overview"
         component = { Overview }
         /> <
