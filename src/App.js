@@ -7,6 +7,7 @@ import Header from './components/sections/Header';
 import Overview from './components/layouts/Overview';
 import Reports from './components/layouts/Reports';
 import Settings from './components/layouts/Settings';
+import Landing from './components/layouts/Landing';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -27,6 +28,9 @@ function App() {
         Switch >
         <
         Route exact path = "/"
+        component = { Landing }
+        /> <
+        Route exact path = "/dashboard"
         component = { Dashboard }
         />  <
         Route exact path = "/overview"
