@@ -33,7 +33,21 @@ class Footer extends Component {
             Col md = "2" >
             <
             /Col> <
-            Col md = "6" >
+            Col md = "6"
+            className = "text-right" >
+            <
+            h6 className = "text-uppercase text-white" > Navigation < /h6> <
+            p > < a href = "/"
+            className = "text-secondary mb-0 pb-0" > FAQs < /a></p >
+            <
+            p > < a href = "/"
+            className = "text-secondary mb-0 pb-0" > Documentation < /a></p >
+            <
+            p > < a href = "/"
+            className = "text-secondary mb-0 pb-0" > Newsletter < /a></p >
+            <
+            p > < a href = "/"
+            className = "text-secondary mb-0 pb-0" > Media < /a></p >
             <
             /Col> <
             Col md = "12"
@@ -41,7 +55,9 @@ class Footer extends Component {
             <
             Row >
             <
-            Col md = "4" > < /Col> <
+            Col md = "4" >
+            <
+            p className = "small text-white" > Copyright & copy 2020 Healr.All rights reserved. < /p> < /Col > <
             Col md = "4" >
             <
             p > < a href = "/terms"

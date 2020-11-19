@@ -85,9 +85,10 @@ function Landing() {
         <
         Row className = "d-flex justify-content-space-between align-content-stretch" >
         <
-        Col md = "8" > < h1 className = "lead display-4 text-white" > Ready to get started ? < /h1> < /Col > < Col >
+        Col md = "8" > < h1 className = "lead display-4 text-white" > Ready to get started ? < /h1> < /Col > < Col md = "4"
+        className = "text-right align-self-center" >
         <
-        Button className = "btn btn-light align-self-end"
+        Button className = "btn btn-lg btn-light align-self-end"
         onClick = { handleShow } > Sign up < /Button></Col >
         <
         Modal show = { show }
