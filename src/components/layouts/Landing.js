@@ -21,7 +21,9 @@ function Landing() {
         <
         h1 className = "lead display-3 text-white" > Take charge of your health. < /h1> <
         p className = "text-white" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. < /p> <
-        Button className = "btn btn-light rounded mb-3" > More < /Button> < /
+        Button className = "btn btn-light rounded mb-3" > More < /Button>  <
+        Button className = "btn btn-light mb-3"
+        onClick = { handleShow } > Sign up < /Button>< /
         Col >
         <
         Col className = "align-self-center" >
