@@ -15,10 +15,11 @@ class Header extends Component {
             Navbar.Brand href = "/" > Healr < /Navbar.Brand> <
             Nav className = "mr-auto" >
             <
+            Nav.Link href = "/dashboard" > Dashboard < /Nav.Link> <
             Nav.Link href = "/overview" > Overview < /Nav.Link> <
             Nav.Link href = "/reports" > Reports < /Nav.Link> <
             Nav.Link href = "/settings" > Settings < /Nav.Link> < /
-            Nav > 
+            Nav >
             <
             /Navbar>    < /
             Container >
