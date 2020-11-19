@@ -81,13 +81,13 @@ function Landing() {
         Col >
         <
         Col md = "12"
-        className = "bg-dark shadow-lg py-5 mt-5" >
+        className = "bg-dark shadow-lg py-5 mt-5 mx-auto" >
         <
-        Row className = "d-flex justify-content-space-between align-content-center" >
+        Row className = "d-flex justify-content-space-between align-content-stretch" >
         <
-        Col md = "8" > < h1 className = "lead text-white" > Ready to get started ? < /h1> < /Col > < Col >
+        Col md = "8" > < h1 className = "lead display-4 text-white" > Ready to get started ? < /h1> < /Col > < Col >
         <
-        Button className = "btn btn-light"
+        Button className = "btn btn-light align-self-end"
         onClick = { handleShow } > Sign up < /Button></Col >
         <
         Modal show = { show }
