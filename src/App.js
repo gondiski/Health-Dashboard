@@ -8,6 +8,8 @@ import Overview from './components/layouts/Overview';
 import Reports from './components/layouts/Reports';
 import Settings from './components/layouts/Settings';
 import Landing from './components/layouts/Landing';
+import Privacy from './components/sections/Privacy';
+import Terms from './components/sections/Terms';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -41,7 +43,14 @@ function App() {
         /> <
         Route exact path = "/settings"
         component = { Settings }
-        /> < /
+        />  <
+        Route exact path = "/privacy"
+        component = { Privacy }
+        />  <
+        Route exact path = "/terms"
+        component = { Terms }
+        /> <
+        /
         Switch > <
         /Router> < /
         Container >

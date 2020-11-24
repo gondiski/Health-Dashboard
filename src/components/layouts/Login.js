@@ -5,7 +5,9 @@ import thunk from 'redux-thunk';
 
 class Login extends Component {
     render() {
-        return ();
+        return ( <
+            Row > < Col > < /Col></Row >
+        );
     }
 }
 

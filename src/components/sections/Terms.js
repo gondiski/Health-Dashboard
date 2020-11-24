@@ -6,9 +6,9 @@ class Terms extends Component {
         return ( <
             Row >
             <
-            Col >
+            Col className = "text-white mx-5" >
             <
-            h2 > healthyapi Terms of Service < /h2> <
+            h2 className = "font-weight-light mb-2" > Healr Terms of Service < /h2> <
             h3 > 1. Terms < /h3> <
             p > By accessing the website at < a href = "http://healthapiapp.herokuapp.com" > http: //healthapiapp.herokuapp.com</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
             <
@@ -25,19 +25,19 @@ class Terms extends Component {
             li > attempt to decompile or reverse engineer any software contained on healthyapi 's website;</li> <
             li > remove any copyright or other proprietary notations from the materials; or < /li> <
             li > transfer the materials to another person or "mirror"
-            the materials on any other server. < /li> <
-            /ol> <
+            the materials on any other server. < /li> < /
+            ol > <
             /li> <
             li > This license shall automatically terminate
-            if you violate any of these restrictions and may be terminated by healthyapi at any time.Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format. < /li> <
-            /ol> <
+            if you violate any of these restrictions and may be terminated by healthyapi at any time.Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format. < /li> < /
+            ol > <
             h3 > 3. Disclaimer < /h3> <
             ol type = "a" >
             <
             li > The materials on healthyapi 's website are provided on an '
             as is ' basis. healthyapi makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</li> <
-            li > Further, healthyapi does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site. < /li> <
-            /ol> <
+            li > Further, healthyapi does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site. < /li> < /
+            ol > <
             h3 > 4. Limitations < /h3> <
             p > In no event shall healthyapi or its suppliers be liable
             for any damages(including, without limitation, damages
@@ -55,8 +55,8 @@ class Terms extends Component {
             p > < a href = "https://getterms.io"
             title = "Generate a free terms of use document" > Terms of Use created with GetTerms. < /a></p >
             <
-            /Col> <
-            /Row>
+            /Col> < /
+            Row >
         );
     }
 }
