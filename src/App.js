@@ -10,6 +10,8 @@ import Settings from './components/layouts/Settings';
 import Landing from './components/layouts/Landing';
 import Privacy from './components/sections/Privacy';
 import Terms from './components/sections/Terms';
+import Signup from './components/layouts/Signup';
+import Login from './components/layouts/Login';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -49,7 +51,13 @@ function App() {
         />  <
         Route exact path = "/terms"
         component = { Terms }
-        /> <
+        />  <
+        Route exact path = "/signup"
+        component = { Signup }
+        / > <
+        Route exact path = "/login"
+        component = { Login }
+        / > <
         /
         Switch > <
         /Router> < /

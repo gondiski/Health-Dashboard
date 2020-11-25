@@ -89,7 +89,7 @@ function Landing() {
         className = "text-right align-self-center" >
         <
         Button className = "btn btn-lg btn-light align-self-end"
-        onClick = { handleShow } > Sign up < /Button></Col >
+        onClick = { handleShow } > Login < /Button></Col >
         <
         Modal show = { show }
         onHide = { handleClose } >
@@ -129,7 +129,7 @@ function Landing() {
         /Form.Group> <
         Button variant = "dark"
         type = "submit" >
-        Submit <
+        Login <
         /Button> < /
         Form > <
         /Modal.Body> <
@@ -140,8 +140,8 @@ function Landing() {
         Close <
         /Button> <
         Button variant = "dark"
-        onClick = { handleClose } >
-        Login <
+        href = "/signup" >
+        Sign up <
         /Button> < /
         Modal.Footer > <
         /Modal>< /
