@@ -5,7 +5,8 @@ function Forgot() {
     return ( <
         Row className = "justify-content-center" >
         <
-        Col md = "6" >
+        Col md = "6"
+        className = "mt-4" >
         <
         Card className = "shadow-lg bg-dark text-white" >
         <

@@ -37,10 +37,12 @@ class Login extends Component {
             Form.Group controlId = "exampleForm.ControlSelect1" > < /Form.Group><
             Button className = "btn-light mt-1 mb-3" > Login < /Button> </Form >
             <
-            Card.Footer className = "bg-dark ml-0 pl-0" >
+            Card.Footer className = "bg-dark ml-0 pl-0 text-white" >
             <
             a href = "/signup"
-            className = "text-info" > Sign up < /a> < /
+            className = "text-info" > Sign up < /a> | <
+            a href = "/forgot"
+            className = "text-info" > Forgot password < /a> < /
             Card.Footer > <
             /Card.Body> < /
             Card > <
