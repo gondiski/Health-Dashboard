@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row, Card, Form, Button } from 'react-bootstrap';
+import { Col, Row, Card, Form, Button, Image } from 'react-bootstrap';
 import { applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
@@ -11,7 +11,10 @@ class Signup extends Component {
             <
             Card.Body >
             <
-            Card.Header className = "bg-dark pl-0 ml-0" > Healr < /Card.Header> <
+            Card.Header className = "bg-dark pl-0 ml-0" > <
+            Image src = "/icon.png"
+            rounded height = "50"
+            width = "auto" / > Healr < /Card.Header> <
             Form className = "mt-3" >
             <
             Form.Group controlId = "exampleForm.ControlInput1" >
@@ -47,9 +50,10 @@ class Signup extends Component {
             Form.Group controlId = "exampleForm.ControlSelect1" > < /Form.Group><
             Button className = "btn-light mt-1 mb-3" > Sign up < /Button> </Form >
             <
-            Card.Footer className = "bg-dark" >
+            Card.Footer className = "bg-dark ml-0 pl-0" >
             <
-            a href = "/login" > Login < /a> < /
+            a href = "/login"
+            className = "text-info " > Login < /a> < /
             Card.Footer > <
             /Card.Body> < /
             Card > <

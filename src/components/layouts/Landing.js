@@ -23,7 +23,7 @@ function Landing() {
         p className = "text-white" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. < /p> <
         Button className = "btn btn-light rounded mb-3" > More < /Button>  <
         Button className = "btn btn-light mb-3"
-        onClick = { handleShow } > Sign up < /Button>< /
+        onClick = { handleShow } > Login < /Button>< /
         Col >
         <
         Col className = "align-self-center" >
@@ -39,7 +39,7 @@ function Landing() {
         Col md = "12"
         className = "mx-4 text-center mt-3" >
         <
-        h1 className = "lead display-4 text-white" > About < /h1>   <
+        h1 className = "font-weight-light display-4 text-white" > About < /h1>   <
         Row > < Col className = "col-md-8 offset-md-2" > <
         p className = "lead text-white" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. < /p> </Col > < /
         Row > < /
@@ -48,7 +48,7 @@ function Landing() {
         Col md = "12"
         className = "mx-auto text-center mt-3" >
         <
-        h1 className = "lead display-4 text-white mb-5" > Features < /h1>   <
+        h1 className = "font-weight-light display-4 text-white mb-5" > Features < /h1>   <
         Row > < Col className = "col-md-4" >
         <
         FeatherIcon icon = "watch"
@@ -96,7 +96,7 @@ function Landing() {
         <
         Modal.Header closeButton >
         <
-        Modal.Title > Sign up < /Modal.Title> < /
+        Modal.Title > Login < /Modal.Title> < /
         Modal.Header > <
         Modal.Body >
         <

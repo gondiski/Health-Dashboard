@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Jumbotron } from 'react-bootstrap';
+import Footer from './Footer';
 
 class Terms extends Component {
     render() {
         return ( <
             Row >
             <
-            Col className = "text-white mx-5" >
+            Col className = "text-white mx-4" >
             <
-            h2 className = "font-weight-light mb-2" > Healr Terms of Service < /h2> <
+            Jumbotron className = "text-center bg-dark shadow-lg" >
+            <
+            h2 className = "font-weight-light mb-2" > Healr Terms of Service < /h2> </Jumbotron > <
             h3 > 1. Terms < /h3> <
-            p > By accessing the website at < a href = "http://healthapiapp.herokuapp.com" > http: //healthapiapp.herokuapp.com</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
+            p className = "font-weight-light" > By accessing the website at < a href = "http://healthapiapp.herokuapp.com" > http: //healthapiapp.herokuapp.com</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
             <
             h3 > 2. Use License < /h3> <
             ol type = "a" >
@@ -51,12 +54,11 @@ class Terms extends Component {
             p > healthyapi may revise these terms of service
             for its website at any time without notice.By using this website you are agreeing to be bound by the then current version of these terms of service. < /p> <
             h3 > 8. Governing Law < /h3> <
-            p > These terms and conditions are governed by and construed in accordance with the laws of Nairobi, Kenya and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location. < /p> <
-            p > < a href = "https://getterms.io"
-            title = "Generate a free terms of use document" > Terms of Use created with GetTerms. < /a></p >
-            <
-            /Col> < /
+            p > These terms and conditions are governed by and construed in accordance with the laws of Nairobi, Kenya and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location. < /p>  <
+            /Col> <
+            Footer / > < /
             Row >
+
         );
     }
 }
