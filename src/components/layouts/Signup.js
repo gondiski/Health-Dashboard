@@ -50,10 +50,12 @@ class Signup extends Component {
             Form.Group controlId = "exampleForm.ControlSelect1" > < /Form.Group><
             Button className = "btn-light mt-1 mb-3" > Sign up < /Button> </Form >
             <
-            Card.Footer className = "bg-dark ml-0 pl-0" >
+            Card.Footer className = "bg-dark ml-0 pl-0 text-white" >
             <
             a href = "/login"
-            className = "text-info " > Login < /a> < /
+            className = "text-info " > Login < /a> | <
+            a href = "/forgot"
+            className = "text-info " > Forgot Password < /a > < /
             Card.Footer > <
             /Card.Body> < /
             Card > <

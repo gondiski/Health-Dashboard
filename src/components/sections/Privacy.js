@@ -11,7 +11,7 @@ class Privacy extends Component {
             Jumbotron className = "text-center bg-dark shadow-lg" >
             <
             h2 > Privacy Policy < /h2> </Jumbotron > <
-            p > Your privacy is important to us.It is healthyapi 's policy to respect your privacy regarding any information we may collect from you across our website, <a href="http://healthapiapp.herokuapp.com">http://healthapiapp.herokuapp.com</a>, and other sites we own and operate.</p> <
+            p > Your privacy is important to us.It is healthyapi 's policy to respect your privacy regarding any information we may collect from you across our website, <a href="http://healthapiapp.herokuapp.com" className="text-info">http://healthapiapp.herokuapp.com</a>, and other sites we own and operate.</p> <
             p > We only ask
             for personal information when we truly need it to provide a service to you.We collect it by fair and lawful means, with your knowledge and consent.We also
             let you know why we’ re collecting it and how it will be used. < /p> <
@@ -23,8 +23,8 @@ class Privacy extends Component {
             p > You are free to refuse our request
             for your personal information, with the understanding that we may be unable to provide you with some of your desired services. < /p> <
             p > Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information.If you have any questions about how we handle user data and personal information, feel free to contact us. < /p> <
-            p > This policy is effective as of 30 November 2020. < /p>  <
-            /Col>  <
+            p > This policy is effective as of 30 November 2020. < /p>  < /
+            Col > <
             Footer / > < /
             Row >
         );

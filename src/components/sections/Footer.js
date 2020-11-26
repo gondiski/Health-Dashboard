@@ -59,17 +59,19 @@ class Footer extends Component {
             <
             p className = "small text-white" > Copyright & copy 2020 Healr.All rights reserved. < /p> < /Col > <
             Col md = "4" >
-            <
-            p > < a href = "/terms"
-            className = "text-info" > Terms and conditions < /a></p >
+
             <
             /Col><
             Col md = "4" >
             <
-            p > < a href = "/privacy"
-            className = "text-info" > Privacy policy < /a></p >
+            Row className = "d-flex justify-content-end" >
             <
-            /Col>  < /
+            p className = "text-white" > < a href = "/terms"
+            className = "text-info" > Terms and conditions < /a> | </p >
+            <
+            p > < a href = "/privacy"
+            className = "text-info" > Privacy policy < /a></p > < /Row> < /
+            Col > < /
             Row > <
             /Col> < /
             Row >
