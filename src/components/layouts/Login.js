@@ -16,7 +16,7 @@ class Login extends Component {
             <
             Card.Body >
             <
-            Card.Header className = "bg-dark" > Healr < /Card.Header> <
+            Card.Header className = "bg-dark ml-0 pl-0" > Healr < /Card.Header> <
             Form className = "mt-3" >
             <
             Form.Group controlId = "exampleForm.ControlInput1" >

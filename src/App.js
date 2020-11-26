@@ -12,6 +12,7 @@ import Privacy from './components/sections/Privacy';
 import Terms from './components/sections/Terms';
 import Signup from './components/layouts/Signup';
 import Login from './components/layouts/Login';
+import Forgot from './components/layouts/Forgot';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -58,7 +59,9 @@ function App() {
         Route exact path = "/login"
         component = { Login }
         / > <
-        /
+        Route exact path = "/forgot"
+        component = { Forgot }
+        /> < /
         Switch > <
         /Router> < /
         Container >

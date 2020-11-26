@@ -5,25 +5,34 @@ import thunk from 'redux-thunk';
 
 class Signup extends Component {
     render() {
-        return ( < Row className = "d-flex justify-content-center" > < Col className = "mt-4 col-md-4 " >
+        return ( < Row className = "d-flex justify-content-center" > < Col className = "mt-4 col-md-6 " >
             <
             Card className = "shadow-lg bg-dark text-white" >
             <
             Card.Body >
             <
-            Card.Header className = "bg-dark" > Healr < /Card.Header> <
+            Card.Header className = "bg-dark pl-0 ml-0" > Healr < /Card.Header> <
             Form className = "mt-3" >
             <
             Form.Group controlId = "exampleForm.ControlInput1" >
+            <
+            Row >
+            <
+            Col md = "6" >
             <
             Form.Label className = "text-white" > Surname < /Form.Label> <
             Form.Control type = "text"
             placeholder = "Doe" / >
             <
+            /Col> <
+            Col md = "6" >
+            <
             Form.Label className = "text-white" > Other name < /Form.Label> <
             Form.Control type = "text"
             placeholder = "John" / >
             <
+            /Col> < /
+            Row > <
             Form.Label className = "text-white" > Email address < /Form.Label> <
             Form.Control type = "email"
             placeholder = "name@example.com" / >
