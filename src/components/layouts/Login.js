@@ -5,7 +5,7 @@ import { Col, Row, Card, Form, Button, Image } from 'react-bootstrap';
 // import axios from 'axios';
 
 
-const url = "localhost:5000/api/login"
+// const url = "localhost:5000/api/login"
 
 class Login extends Component {
     render() {
