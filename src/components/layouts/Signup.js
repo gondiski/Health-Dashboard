@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row, Card, Form, Button, Image } from 'react-bootstrap';
-import { applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk';
+// import { applyMiddleware, compose } from 'redux';
+// import thunk from 'redux-thunk';
 
 class Signup extends Component {
     render() {

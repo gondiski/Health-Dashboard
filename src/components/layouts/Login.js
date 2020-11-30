@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Col, Row, Card, Form, Button, Image } from 'react-bootstrap';
-import { applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk';
-import axios from 'axios';
+// import { applyMiddleware, compose } from 'redux';
+// import thunk from 'redux-thunk';
+// import axios from 'axios';
 
 
 const url = "localhost:5000/api/login"
